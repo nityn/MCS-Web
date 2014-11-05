@@ -23,8 +23,24 @@
 }
 
 #sec_features {
-	padding-top:30px;
+	--padding-top:30px;
 	padding-bottom:30px;
+}
+#sec_features .title {
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 300;
+	color: #ff6600;
+	margin-bottom:30px;
+	text-align: center;
+}
+#sec_features .slogan{
+	font-size:20px;
+	line-height:26px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #121212;
 }
 
 #sec_facts {
@@ -147,7 +163,7 @@
 }
 #sec_partners {
 	background-color: #eee9e6;
-	padding-top:40px;
+	padding-top:30px;
 	padding-bottom:80px;
 	color: #ffffff;
 }
@@ -187,6 +203,7 @@
 	color: #111111;
 }
 #sec_partners_2 {
+	background-image: url(../img/demo/partners.png);
 	background-color: #fafafa;
 	padding-top:40px;
 	padding-bottom:40px;
@@ -209,6 +226,29 @@
 	text-align: center;
 	color: #121212;
 }
+#sec_partners_2 .slogan{
+	font-size:20px;
+	line-height:26px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #121212;
+}
+#sec_partners_2 .box-icon
+{
+	color: #31117E;
+}
+#sec_partners_2 .datatext {
+	font-size:16px;
+	padding-top:5px;
+	line-height:26px;
+	font-weight: 300;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #111111;
+}
+
+
 #layer_20 {
 	display: none;
 	}
@@ -254,7 +294,7 @@
 }
 
 #sec_contact {
-	padding-top:80px;
+	padding-top:40px;
 	padding-bottom:60px;
 	background-color: #ffffff;
 	background-image: url(../img/demo/contactbg.png);

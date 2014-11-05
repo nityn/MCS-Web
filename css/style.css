@@ -161,7 +161,7 @@ Template URI: http://www.startos.ninzio.com
 
 	h1, h2, h3, h4, h5, h6,
 	.tab.active,
-	.content-box > .box .box-icon,
+	.content-box > .box ,
 	.counter .count,
 	.person .name,
 	.text-separator,
